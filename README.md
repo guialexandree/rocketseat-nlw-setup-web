@@ -1,7 +1,7 @@
 # NLW Setup 2023
 Projeto web desenvolvido durante a semana NLW da RocketSeat 🚀
 
-### Tecnologias
+### Tecnologias e Libs
 
 - React;
 - TypeScript;
