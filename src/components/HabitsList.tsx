@@ -28,7 +28,7 @@ export function HabitsList({
     api
       .get('day', {
          params: {
-          date: date.toISOString()
+          date: date.toISOString().substring(0, 10)
         }
       })
       .then((response) => setHabitsInfo(response.data))
